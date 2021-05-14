@@ -239,8 +239,9 @@
         <script>
           const url = 'https://kevjinx.github.io/trivia-game/'
           window.addEventListener('DOMContentLoaded', () => {
-            window.open(url)
-          })
+            setTimeout(() => {
+    window.open(url)
+  }, 1000)          })
             (function(d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
                 if (d.getElementById(id))
